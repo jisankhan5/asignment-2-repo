@@ -145,12 +145,58 @@ nav ul {
 }
 .lover{
     color: rgba(0, 0, 0, 0.5);
-    font-size: 1.70rem;
+    font-size: 1.68rem;
 }
 
+/* main-thaird-section */
 
+.deal-title{
+    font-size: 3.40rem;
+    font-weight: bold;
+}
+.deal-des{
+    font-size: 1.68rem;
+    color: rgba(0, 0, 0, 0.5);
+}
+.deal-sec{
+    text-align: center;
+    margin-top: 130px;
+}
 
-
+.blom-card2{
+  box-shadow: inset 0 0 0 100vw rgba(0,0,0,0.5);
+  background: var(--image-url) center center;
+  background-size: cover;
+  color: white;
+  width: 367px;
+  height: 201px;
+   display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.shop1{
+    margin-left: 60px;
+    text-decoration: underline;
+    margin-top: 20px;
+    
+}
+.shop1 a{
+    color: white;
+    font-weight: 600;
+}
+.blom-card1{
+    box-shadow: inset 0 0 0 100vw rgba(0,0,0,0.5);
+  background: var(--image-url) center center;
+  background-size: cover;
+  color: white;
+  width: 367px;
+  height: 201px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
 
 
 
@@ -245,6 +291,19 @@ nav ul {
     .lover-title{
         margin-left: 45px;
     }
+
+    /* main-thaird-section */
+
+   .deal-title{
+    font-size: 1.50rem;
+   }
+   .deal-des{
+    font-size: 14px;
+   }
+   .deal-sec{
+    text-align: center;
+    margin-left: 45px;
+   }
 
 
 
