@@ -114,12 +114,39 @@ nav ul {
     border: none;
 }
 
+/* main-second-section */
 
+.badge-section{
+    position: relative;
+    display: inline-block;
+}
+.badge{
+    position: absolute;
+    top: -130px;
+    right: -115px;
+    width: 286px;
+    height: 286px;
+    
+}
+.plant-lover{
+    margin-left: 400px;
+    margin-top: 200px;
+    display: flex;
+}
 
-
-
-
-
+.lover-section{
+    margin-left: 100px;
+    width: 541px;
+    height: 541px;
+}
+.lover-title{
+    font-size: 3.125rem;
+    font-weight: bold;
+}
+.lover{
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 1.70rem;
+}
 
 
 
@@ -182,4 +209,44 @@ nav ul {
     .btn-primary{
         padding: 10px 50px;
     }
+    /* main-second-section */
+
+    .lover-title{
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+    .lover{
+        font-size: 14px;
+    }
+    .plant-lover{
+        display: flex;
+        flex-direction: column;
+        margin-left: -80px;
+        margin-top: 41px;
+    }
+    .badge{
+        margin-right: 150px;
+        margin-top: 150px;
+        visibility: hidden;
+
+    }
+    .store{
+        width: 365px;
+        height: 396px;
+        margin-left: 130px;
+    }
+    .lover-section{
+        width: 361px;
+        height: 234px;
+    }
+    .lover{
+        margin-left: 70px;
+    }
+    .lover-title{
+        margin-left: 45px;
+    }
+
+
+
+
 }
