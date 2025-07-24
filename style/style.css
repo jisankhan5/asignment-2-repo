@@ -1,0 +1,44 @@
+/* header-fast-section */
+nav ul li{
+    list-style: none;
+    margin-top: 20px;
+}
+ul li a{
+    text-decoration: none;
+    color: #252432;
+}
+nav ul {
+    display: flex;
+    gap: 48px;
+
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.ancho{
+    color: #8987A1;
+}
+/* media-quary */
+
+@media screen and (max-width: 576px) {
+    .anch{
+        visibility: hidden;
+    }
+    .anchor{
+        display: flex;
+        gap: 10px;
+    }
+    nav img{
+        margin-left: -120px;
+        width: 63px;
+        height: 38px;
+    }
+    nav ul{
+        margin-right: 20px;
+        margin-top: -5px;
+    }
+}
